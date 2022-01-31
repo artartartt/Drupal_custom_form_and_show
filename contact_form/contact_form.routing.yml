@@ -1,0 +1,7 @@
+dn_students.add_student:
+  path: '/contact-form'
+  defaults:
+    _title: 'Contact form'
+    _form: '\Drupal\contact_form\Form\ContactForm'
+  requirements:
+    _access: 'TRUE'
