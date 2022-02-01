@@ -1,0 +1,14 @@
+<div{{ attributes }}>
+  <ul>
+
+  {% for key,value in social_info %}
+      <li style="list-style-type: none; border-bottom: 1px solid gray">
+      {% for test1,count2 in value %}
+        <h1 class="{{ count2.class }}" >{{ count2.label }}</h1>
+      {% endfor %}
+      </li>
+  {% endfor%}
+  </ul>
+
+</div>
+
