@@ -1,6 +1,0 @@
-name: Show contact message
-type: module
-description: 'Provides routing demo.'
-package: custom
-core_version_requirement: ^8.8 || ^9
-

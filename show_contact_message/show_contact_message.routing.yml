@@ -1,7 +1,0 @@
-show_contact_message.Content:
-  path: '/show-contact-message'
-  defaults:
-    _controller: '\Drupal\show_contact_message\Controller\ShowContactMessageController::Content'
-    _title: 'Show Contact Message'
-  requirements:
-    _permission: 'access content'
